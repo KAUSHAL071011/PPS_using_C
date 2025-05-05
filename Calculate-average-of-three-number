@@ -1,0 +1,3 @@
+#include <stdio.h>
+
+int main() { float a, b, c, average; printf("Enter first number: "); scanf("%f", &a); printf("Enter second number: "); scanf("%f", &b); printf("Enter third number: "); scanf("%f", &c); average = (a + b + c) / 3; printf("The average is: %.2f\n", average); return 0; }
